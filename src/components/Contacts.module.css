@@ -8,6 +8,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 20px;
+    box-shadow: 2px 0px 23px 9px rgba(0,0,0,0.3);
 }
 .addContacts input{
     width: 45%;
@@ -36,4 +37,26 @@
 .addContacts button:hover{
     background-color: #f0ecf5;
     color: #8854d0;
+}
+.container .alert{
+    width: auto;
+    margin: 30px;
+    background-color: rgba(243, 34, 34, 0.466);
+    border-radius: 20px;
+    padding: 15px;
+    color: rgb(128, 4, 4);
+}
+.container .alertDiv{
+    height: 50px;
+}
+@media (max-width:500px) {
+    .addContacts input{
+        width: 90%;
+    }
+    .addContacts button{
+        width: 90%;
+    }
+    .addContacts{
+        height: 370px;
+    }
 }

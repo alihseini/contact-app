@@ -1,0 +1,51 @@
+.title{
+    color: #8854d0;
+    width: auto;
+    margin: 30px;
+}
+.contactList .emptyP{
+    background-color: rgba(153, 153, 153, 0.438);
+    color: rgb(71, 71, 71);
+    width: auto;
+    margin: 30px;
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 20px;
+}
+.contactList div{
+    border-radius: 15px;
+    font-size: 1.2rem;
+    display: flex;
+    padding: 20px;
+    width: auto;
+    margin: 15px 30px;
+    justify-content: space-between;
+    background-color: #fff;
+}
+.contactList div p{
+    width: 31%;
+}
+.contactList div button{
+    width: 70px;
+    font-size: 1.1rem;
+    height: 40px;
+    background-color: #8854d0;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+.contactList div button:hover{
+    background-color: #f0ecf5;
+    color: #8854d0;
+}
+@media (max-width:870px) {
+    .contactList div{
+        flex-direction: column;
+    }
+    .contactList div p{
+        width: 90%;
+    }
+}
