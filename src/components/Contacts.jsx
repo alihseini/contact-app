@@ -1,5 +1,5 @@
 import { useState } from "react";
-import styles from "./contacts.module.css";
+import styles from "./Contacts.module.css";
 
 import ContactsList from "./ContactsList";
 import inputs from "../constatnts/inputs";
